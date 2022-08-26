@@ -1,0 +1,10 @@
+{
+    "kinesis.endpoint": "",  
+    "firehose.endpoint": "", 
+    "flows": [
+        {
+            "filePattern": "/var/log/fuelstream5min/*.log”
+            "deliveryStream": " fuelalarmsstream" 
+        }
+    ] 
+}
